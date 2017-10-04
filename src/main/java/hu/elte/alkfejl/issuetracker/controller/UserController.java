@@ -27,4 +27,11 @@ public class UserController {
         model.addAttribute("name", name);
         return "greeting";
     }
+
+    /*@GetMapping("/login")
+    public String login(){
+        return "login";
+    }
+    @PostMapping("/login")*/
+    
 }
